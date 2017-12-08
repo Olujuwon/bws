@@ -10,7 +10,7 @@ body{
     background-color: white;
 }
 .navbar{
-    height: 250px;
+    height: 200px;
     background-color:transparent;
 }
 .navbar img{
@@ -22,19 +22,32 @@ body{
     position: relative;
     float: right;
     top: 80px;
-    right: 100px;
+    right: 70px;
 
 }
 .fix{
     clear: both;
 }
 .navbar li{
-    display: inline;
+    display: inline-block;
     border-radius: 5px;
-    border: 1px solid #ECECEC;
-    padding: 10px;
-    margin: 10px;
+    border: 2px solid #DADFE1;
+    padding: 5px ;
+    margin: 15px;
     background-color: #ECECEC;
+    width: 100px;
+    text-align: center;
+}
+.navbar li a{
+    text-decoration: none;
+    color: #315A65;
+}
+.navbar li:hover{
+    color: white;
+    background-color: #315A65;
+}
+.navbar li a:hover{
+    color: white;
 }
 .imgs{
     height: 100px;
@@ -64,7 +77,7 @@ body{
 .para img{
     float: right;
     position: absolute;
-    top: 230px;
+    top: 180px;
     height: 480px;
     right: 80px;
 }
@@ -80,13 +93,13 @@ body{
     height: 150px;
 }
 .fword{
-    display: inline-block;
-    width: 10%;
+    float: left;
+    width: 20%;
     font-size: small;
 }
 .sections{
     width: 100%;
-    height: 500px;
+    height: 400px;
     background-color: transparent;
     align-content: center;
     font-size: medium;
