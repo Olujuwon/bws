@@ -1,0 +1,130 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: roboto;
+}
+.container{
+    width: 100%;
+    margin: auto;
+    background-color: white;
+}
+.navbar{
+    height: 250px;
+    background-color:transparent;
+}
+.navbar img{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.navbar ul{
+    list-style-type: none;
+    position: relative;
+    float: right;
+    top: 80px;
+    right: 100px;
+
+}
+.fix{
+    clear: both;
+}
+.navbar li{
+    display: inline;
+    border-radius: 5px;
+    border: 1px solid #ECECEC;
+    padding: 10px;
+    margin: 10px;
+    background-color: #ECECEC;
+}
+.imgs{
+    height: 100px;
+    /* float: left; */
+    position: relative;
+    top: 40px;
+    padding-left: 30px;
+}
+.imgs img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 10px;
+    border: 2px solid #BDC3C7;
+}
+.para{
+    padding-top: 120px;
+    background-color: #BDC3C7;
+    padding-left: 30px;
+}
+.para h2 {
+    margin: auto;
+}
+.para h3 {
+    margin: auto;
+}
+.para img{
+    float: right;
+    position: absolute;
+    top: 230px;
+    height: 480px;
+    right: 80px;
+}
+.footer{
+    width: 100%;
+    background-color: #DADFE1; 
+    text-align: center;
+    height: 200px;
+}
+.fwords{
+    width: 100%;
+    text-align: center;
+    height: 150px;
+}
+.fword{
+    display: inline-block;
+    width: 10%;
+    font-size: small;
+}
+.sections{
+    width: 100%;
+    height: 500px;
+    background-color: transparent;
+    align-content: center;
+    font-size: medium;
+}
+.sections p{
+    font-size: x-small;
+    color: grey;
+}
+.sec1{
+    width: 20%;
+    float: left;
+    margin-left: 30px;
+    text-align: justify;
+}
+.sec2{
+    width: 50%;
+    float: left;
+    margin-left: 30px;
+    text-align: justify;
+
+}
+.sec2 img{
+    float: left;
+    position: relative;
+    top: 0px;
+    margin-right: 10px;
+}
+.sec3{
+    width: 20%;
+    float: left;
+    margin-left: 30px;
+    text-align: justify;
+}
+hr {
+    border: 1px dotted gray;
+    width: 100%px;
+}
+#sannu {
+    font-size: medium;
+    color: black;
+}
